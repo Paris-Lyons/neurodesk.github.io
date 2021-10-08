@@ -6,11 +6,11 @@ description: >
   A flexible, scalable and easy to use data analysis environment for reproducible neuroimaging.
 ---
 
-Neurodesk provides a containerised data analysis environment to facilitate reproducible analysis of neuroimaging data. At Neurodesk, we believe that reproducibility should be a fundamental principle underlying neuroscientific data analysis (1). Analysis pipelines for neuroimaging data typically rely on specific versions of packages and software, and are dependent on their native operating system. These dependencies mean that a working analysis pipeline may fail or produce different results on a new computer, or even on the same computer after a software update. Neurodesk provides a platform in which anyone, anywhere, using any computer can reproduce your original research findings given the original data and analysis code. 
+Neurodesk provides a containerised data analysis environment to facilitate reproducible analysis of neuroimaging data. At Neurodesk, we believe that reproducibility should be a fundamental principle underlying neuroscientific data analysis (1). Analysis pipelines for neuroimaging data typically rely on specific versions of packages and software, and are dependent on their native operating system. These dependencies mean that a working analysis pipeline may fail or produce different results on a new computer or even on the same computer after a software update. Neurodesk provides a platform in which anyone, anywhere, using any computer, can reproduce your original research findings given the original data and analysis code. 
 
 ## What is a container?
 
-The Neurodesk environment allows users to build and use containers for analysing neuroimaging data. Containers can be compared to virtual machines, in that they allow users to create a virtual, isolated computing environment with an operating system separate to that of the host machine. However, containers differ from virtual machines in that they virtualise software rather than hardware. Practically, this means that container images require few system resources to install, start-up quickly, and are easily portable between computers. To read more about Docker containers, visit [the Docker webpage](https://www.docker.com/resources/what-container)  
+The Neurodesk environment allows users to build and use containers for analysing neuroimaging data. Containers can be compared to virtual machines in that they allow users to create a virtual, isolated computing environment with an operating system separate from that of the host machine. However, containers differ from virtual machines in that they virtualise software rather than hardware. Practically, this means that container images require few system resources to install, start-up quickly, and are easily portable between computers. To read more about Docker containers, visit [the Docker webpage](https://www.docker.com/resources/what-container)  
 
 ## The Neurodesk ecosystem
 
@@ -22,7 +22,7 @@ The Neurodesk ecosystem includes a number of tools for containerised analysis of
 
 > If you’re new to Neurodesk, we recommend you begin with Neurodesktop.
 
-_Neurodesktop_ is a compact Docker container with a browser-accessible virtual desktop that allows you develop and implement data analysis pipelines as though you’re on your own computer. The _neurodesktop_ container has the basic tools required for the analysis of fMRI and EEG data pre-installed. 
+_Neurodesktop_ is a compact Docker container with a browser-accessible virtual desktop that allows you to develop and implement data analysis pipelines as though you’re on your own computer. The _neurodesktop_ container has the basic tools required for analysis of fMRI and EEG data pre-installed. 
 To get started, see: [Neurodesktop](/docs/neurodesktop/)
 
 ### Neurocommand
@@ -33,7 +33,7 @@ To get started, see: [Neurocommand](/docs/neurocommand/)
 
 ### Transparent-singularity
 
-The applications pre-installed in _neurodesktop_ and _neurocommand_ are accessible through _transparent-singularity_, which allows users to transparently use containerised software as through it were installed natively. 
+The applications pre-installed in _neurodesktop_ and _neurocommand_ are accessible through _transparent-singularity_, allowing users to transparently use containerised software as though it were installed natively. 
 
 To find out more about this open-source project, see: [transparent-singularity](https://github.com/NeuroDesk/transparent-singularity)
 
