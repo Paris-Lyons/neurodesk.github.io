@@ -51,5 +51,5 @@ To find out more about this open-source project, see: [Neurodocker](https://gith
 
 ## References
 
-1. 1.	National Academies of Sciences, Engineering, and Medicine. 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press. https://doi.org/10.17226/25303.
+1.	National Academies of Sciences, Engineering, and Medicine. 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press. https://doi.org/10.17226/25303.
 
