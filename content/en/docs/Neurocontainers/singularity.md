@@ -9,7 +9,7 @@ description: >
 Our docker containers are converted to singularity containers and stored on Object storage.
 
 ## Download Singularity Containers
-First get an overview which containers are available as Singularity containers:
+First, get an overview of which containers are available as Singularity containers:
 https://github.com/NeuroDesk/neurodesk/blob/master/cvmfs/log.txt
 ```shell
 curl -s https://raw.githubusercontent.com/NeuroDesk/neurodesk/master/cvmfs/log.txt
@@ -24,7 +24,7 @@ Then download the containers. An easy way is to use CURL (e.g. downloading from 
 ```shell
 curl -X GET https://objectstorage.us-ashburn-1.oraclecloud.com/n/sd63xuke79z3/b/neurodesk/o/${container}.simg -O
 ```
-or from australia
+or from Australia
 ```shell
 curl -X GET https://objectstorage.ap-sydney-1.oraclecloud.com/n/sd63xuke79z3/b/neurodesk/o/${container}.simg -O
 ```
