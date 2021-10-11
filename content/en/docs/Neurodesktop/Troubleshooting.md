@@ -3,16 +3,16 @@ title: "Troubleshooting"
 linkTitle: "Troubleshooting"
 weight: 9
 description: >-
-     Are you experiencing issues with neurodesktop?
+     Are you experiencing issues with Neurodesktop?
 ---
 
-Neurodesk is an open-source project that is always evolving. If you are experiencing an issue not listed here, please open a [new issue](https://github.com/NeuroDesk/neurodesk.github.io/issues), so that we can aim to solve it and update our help documentation. 
+Neurodesk is an open-source project that is always evolving. If you are experiencing an issue not listed here, please open a [new issue](https://github.com/NeuroDesk/neurodesk.github.io/issues) so that we can aim to solve it and update our help documentation. 
 
-To ask questions or suggest new features, [join the discussion](https://github.com/NeuroDesk/neurodesk.github.io/discussions) on github. 
+To ask questions or suggest new features, [join the discussion](https://github.com/NeuroDesk/neurodesk.github.io/discussions) on GitHub. 
 
 ## Windows users: WSL not installed properly
 
-The Docker engine relies on the Windows subsystem for Linux ([WSL]( https://docs.microsoft.com/en-us/windows/wsl/install-win10)) to run on a windows machine. 
+The Docker engine relies on the Windows subsystem for Linux ([WSL]( https://docs.microsoft.com/en-us/windows/wsl/install-win10)) to run on a Windows machine. 
 
 {{< alert title="Note" >}}We recommend the _manual_ install instructions, as the simplified install requires an upgrade to a preview build of Windows that may be unstable.{{< /alert >}}
 
