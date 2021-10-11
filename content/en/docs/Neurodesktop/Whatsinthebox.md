@@ -16,7 +16,7 @@ Neurodesktop comes with the essential software required for neuroimaging data an
      * Git
 * Workflow systems:
      * Nipype (including GraphVis)
-* Data Syncronisation tools: (See our Storage section for more information: [Storage](/docs/neurodesktop/storage))
+* Data Synchronisation tools: (See our Storage section for more information: [Storage](/docs/neurodesktop/storage))
      * Rsync
      * Rclone https://rclone.org/
      * Nextcloud client
@@ -24,7 +24,7 @@ Neurodesktop comes with the essential software required for neuroimaging data an
      * Globus personal connect https://docs.globus.org/how-to/globus-connect-personal-linux/
           * installed in /opt/globusconnectpersonal/
 * System Management:
-     * Lmod (inlcuding Lua)
+     * Lmod (including Lua)
      * Singularity
      * Htop
 * Misc
@@ -32,4 +32,4 @@ Neurodesktop comes with the essential software required for neuroimaging data an
      * Firefox
      * OpenSSH client
 
-The neurodesktop environment is built to be light and fast to download and start-up. Most additional programs are therefore downloaded when they are first used. A list of these additional packages can be found [here](https://github.com/NeuroDesk/neurodesk/blob/master/cvmfs/log.txt)
+The neurodesktop environment is built to be light and fast to download and start up. Most additional programs are therefore downloaded when they are first used. A list of these additional packages can be found [here](https://github.com/NeuroDesk/neurodesk/blob/master/cvmfs/log.txt)
